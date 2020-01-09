@@ -35,7 +35,7 @@ git clone https://github.com/yongwuSHU/Advsal.git
 ```
    
 #### Install dependencies
-* pytorch >=0.4.1 (we have tested pytorch 1.3 with python 3.7)
+* PyTorch >=0.4.1 (we have tested PyTorch v1.3 with python 3.7)
 * python3
 
 #### Let's start !
