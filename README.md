@@ -26,7 +26,7 @@ Official implementation of the **SODGAN** network. SODGAN is two-stage training 
 
 ## [Model Zoo](https://drive.google.com/open?id=1T2h3e1QZkapyKGrImdG9nBvLUchdHgYU)
 The models trained using PyTorch.
-benchmarks are provided in the [model zoo]. 
+Your can download trained well models [model zoo](https://drive.google.com/open?id=1T2h3e1QZkapyKGrImdG9nBvLUchdHgYU). 
 
 
 ## Installation
