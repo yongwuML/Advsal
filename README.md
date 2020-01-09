@@ -15,7 +15,7 @@ This release also includes many **new features**, including:
 **LTR** is a general framework for training SODGAN network.
 
 ## trainers
-The toolkit contains the implementation of the following trackers.  
+The toolkit contains the implementation of the following methods.
 
 ### SODGAN
 
