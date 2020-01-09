@@ -1,3 +1,0 @@
-1.用tensorflow 打开tensorboard。
-tensorboard --logdir=/home/yongwu/文档/paper/tracking/pysot/pysot-master/experiments/siamrpn_r50_l234_dwxcorr_8gpu/logs
-等号两边不要留空格，注意路径的格式。
