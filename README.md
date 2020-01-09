@@ -12,7 +12,7 @@ This release also includes many **new features**, including:
 
 ### [Training Framework: LTR](train)
  
-**LTR** is a general framework for training SODGAN networks.
+**LTR** is a general framework for training SODGAN network.
 
 ## trainers
 The toolkit contains the implementation of the following trackers.  
