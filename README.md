@@ -44,14 +44,14 @@ git clone https://github.com/yongwuSHU/Advsal.git
 
 #### Let's start !
 ## Training
-Activate the conda environment and run it.  
+Activate the right environment and run it.  
 ```bash
 python training.py sodgan    
 ```  
 ## Testing
-Activate the conda environment and run it
+Activate the right environment and run it
 ```bash
 python testing.py sodgan --dataset pascal(ecssd....)
 ```
 
-* [Yong Wu]
+* [Yong Wu](http://www.ivp.shu.edu.cn/)
