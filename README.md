@@ -10,7 +10,7 @@ This release also includes many **new features**, including:
 
 ### SODGAN network
 
-### [Training Framework: LTR](ltr)
+### [Training Framework: LTR](train)
  
 **LTR** is a general framework for training SODGAN networks.
 
