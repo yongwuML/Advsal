@@ -54,4 +54,4 @@ Activate the right environment and run it
 python testing.py sodgan --dataset pascal(ecssd....)
 ```
 
-* [Yong Wu](http://www.ivp.shu.edu.cn/)
+* [[Yong Wu]](http://www.ivp.shu.edu.cn/)
