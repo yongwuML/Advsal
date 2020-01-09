@@ -19,7 +19,9 @@ The toolkit contains the implementation of the following trackers.
 
 ### SODGAN
 
-Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accerate training speed.
+Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accerate training speed. Our model can detect salient objects better.
+
+![Several examples](figs/sod.png)
  
 
 ## [Model Zoo](MODEL_ZOO.md)
