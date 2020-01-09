@@ -35,19 +35,19 @@ git clone https://github.com/visionml/pytracking.git
 ```
    
 #### Install dependencies
-pytorch >=0.41 (we have tested pytorch 1.3 with python 3.7)
+pytorch >=0.4.1 (we have tested pytorch 1.3 with python 3.7)
 python3
 
 #### Let's test it!
-##Training
+## Training
 Activate the conda environment and run it.  
 ```bash
 python training.py sodgan    
 ```  
-##Testing
+## Testing
 Activate the conda environment and run it
-'''bash
+```bash
 python testing.py sodgan --dataset pascal(ecssd....)
-'''
+```
 
 * [Yong Wu]
