@@ -19,7 +19,7 @@ The toolkit contains the implementation of the following trackers.
 
 ### SODGAN
 
-Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accerate training speed about 35minutes.
+Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accerate training speed.
  
 
 ## [Model Zoo](MODEL_ZOO.md)
@@ -35,8 +35,8 @@ git clone https://github.com/visionml/pytracking.git
 ```
    
 #### Install dependencies
-pytorch >=0.4.1 (we have tested pytorch 1.3 with python 3.7)
-python3
+* pytorch >=0.4.1 (we have tested pytorch 1.3 with python 3.7)
+* python3
 
 #### Let's test it!
 ## Training
