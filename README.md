@@ -31,7 +31,7 @@ benchmarks are provided in the [model zoo].
 
 #### Clone the GIT repository.  
 ```bash
-git clone https://github.com/visionml/pytracking.git
+git clone https://github.com/yongwuSHU/Advsal.git
 ```
    
 #### Install dependencies
