@@ -38,7 +38,7 @@ git clone https://github.com/visionml/pytracking.git
 * pytorch >=0.4.1 (we have tested pytorch 1.3 with python 3.7)
 * python3
 
-#### Let's test it!
+#### Let's start !
 ## Training
 Activate the conda environment and run it.  
 ```bash
