@@ -19,7 +19,7 @@ The toolkit contains the implementation of the following methods.
 
 ### SODGAN
 
-Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accelerate training speed. And It takes only 35 minutes to train on a Titan Xp GPU. Our model can detect salient objects better.
+Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accelerate training speed. And it takes only 35 minutes to train on a Titan Xp GPU. Our model can detect salient objects better.
 
 ![Several examples](figs/sod.png)
  
