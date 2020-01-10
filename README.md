@@ -19,7 +19,7 @@ The toolkit contains the implementation of the following methods.
 
 ### SODGAN
 
-Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accerate training speed. Our model can detect salient objects better.
+Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accelerate training speed. Our model can detect salient objects better.
 
 ![Several examples](figs/sod.png)
  
@@ -39,7 +39,7 @@ git clone https://github.com/yongwuSHU/Advsal.git
 #### Install dependencies
 * PyTorch >=0.4.1 (we have tested PyTorch v1.3 with Python 3.7)
 * Python 3
-* ubuntu 16.04 (we don't suggest OS 18.04)
+* ubuntu 16.04 (we don't recommend OS 18.04)
 * You need install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
 
 #### Let's start !
@@ -53,5 +53,6 @@ Activate the right environment and run it
 ```bash
 python testing.py sodgan --dataset pascal(ecssd....)
 ```
+## Contributors
 
 * [[Yong Wu]](http://www.ivp.shu.edu.cn/)
