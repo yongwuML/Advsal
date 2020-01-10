@@ -42,13 +42,13 @@ git clone https://github.com/yongwuSHU/Advsal.git
 * ubuntu 16.04 (we don't recommend OS 18.04)
 * You need install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
 
-#### Let's start !
-## Training
+## Let's start !
+### Training
 Activate the right environment and run it.  
 ```bash
 python training.py sodgan    
 ```  
-## Testing
+### Testing
 Activate the right environment and run it
 ```bash
 python testing.py sodgan --dataset pascal(ecssd....)
