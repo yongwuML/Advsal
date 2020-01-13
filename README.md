@@ -55,4 +55,4 @@ python testing.py sodgan --dataset pascal(ecssd....)
 ```
 ## Contributors
 
-* [[Yong Wu]](http://www.ivp.shu.edu.cn/)
+* [Yong Wu](http://www.ivp.shu.edu.cn/)
