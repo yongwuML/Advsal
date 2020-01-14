@@ -55,6 +55,6 @@ python testing.py sodgan --dataset pascal(ecssd,hkuis,dutste,dutomron,....)
 ```
 ## Contributors
 
-* [[Yong Wu]](http://www.ivp.shu.edu.cn/) 
+* [Yong Wu](http://www.ivp.shu.edu.cn/) 
 
 Any question, please email: Yong_Wu1@163.com, Yong_Wu@shu.edu.cn
