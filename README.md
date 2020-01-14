@@ -51,7 +51,7 @@ python training.py sodgan
 ### Testing
 Activate the right environment and run it
 ```bash
-python testing.py sodgan --dataset pascal(ecssd....)
+python testing.py sodgan --dataset pascal(ecssd,hkuis,dutste,dutomron,....)
 ```
 ## Contributors
 
