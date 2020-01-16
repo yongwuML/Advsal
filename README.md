@@ -1,4 +1,4 @@
-# Advsal
+# Advsal (we will upload all code when our paper online)
 A general python framework for training and testing SODGAN, based on **PyTorch**.
   
 This release also includes many **new features**, including:  
