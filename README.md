@@ -17,6 +17,16 @@ This release also includes many **new features**, including:
 ## trainers
 The toolkit contains the implementation of the following methods.
 
+## Publication and citation
+
+SODGAN is proposed in our paper accepted by JVCIR 2020. 
+Detailed explanation of our method can be found in the paper:
+
+Yong Wu, Zhi Liu, Xiaofei Zhou.
+
+The paper can be downloaded [here](https://doi.org/10.1016/j.jvcir.2020.102761).
+
+
 ### SODGAN
 
 Official implementation of the **SODGAN** network. SODGAN is two-stage training architecture, which can accelerate training speed. And it takes only 35 minutes to train on a Titan Xp GPU. Our model can detect salient objects better.
