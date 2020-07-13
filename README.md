@@ -22,8 +22,14 @@ The toolkit contains the implementation of the following methods.
 SODGAN is proposed in our paper accepted by JVCIR 2020. 
 Detailed explanation of our method can be found in the paper:
 
-Yong Wu, Zhi Liu, Xiaofei Zhou.
-
+```
+@inproceedings{wuadvsal2020,
+    title = {Saliency detection using adversarial learning networks},
+    author = {Yong Wu, Zhi Liu, , Xiaofei Zhou},
+    booktitle = {Journal of Visual Communication and Image Representation},
+    year = {2020}
+}
+```
 The paper can be downloaded [here](https://doi.org/10.1016/j.jvcir.2020.102761).
 
 
