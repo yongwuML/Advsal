@@ -25,7 +25,7 @@ Detailed explanation of our method can be found in the paper:
 ```
 @inproceedings{wuadvsal2020,
     title = {Saliency detection using adversarial learning networks},
-    author = {Yong Wu, Zhi Liu, , Xiaofei Zhou},
+    author = {Yong Wu, Zhi Liu, Xiaofei Zhou},
     booktitle = {Journal of Visual Communication and Image Representation},
     year = {2020}
 }
