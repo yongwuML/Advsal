@@ -53,6 +53,7 @@ def run(settings):
 
     if len(settings.snapshot) > 0:
         print ('training resumes from ' + settings.snapshot)
+        net = net.module
         net.load_state_dict(torch.load(os.path.join(settings.ckpt, settings.snapshot + '.pth')))
         optimizer.load_state_dict(torch.load(os.path.join(settings.ckpt, settings.snapshot + '_optim.pth')))
         optimizer.param_groups[0]['lr'] = 2 * settings.lr
