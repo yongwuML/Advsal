@@ -9,15 +9,17 @@ from train.admin.environment import env_settings
 from train.dataset import ImageFolder, check_mkdir
 from train.data import transforms
 from train.model.sodgan import Net
+from train.admin import multigpu
 from train import MultiGPU
 from train.trainers import LTRTrainer
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 
 def run(settings):
     settings.description = 'SODGAN with default settings.'
     settings.train_dir = env_settings().msra10k_dir
     settings.ckpt = env_settings().workspace_dir
-    settings.multi_gpu = False # multi-gpus training, we don't have done it for now, we will update.
+    settings.multi_gpu = False # multi-gpus training。
     settings.iter_num = 5000 # Number of iters, 2000 for first training
     settings.batch_size = 8
     settings.diter_num = 10000 # Number of iters for Dcriminator, 0 for only train Generator, 10000 for second training.
@@ -53,9 +55,12 @@ def run(settings):
 
     if len(settings.snapshot) > 0:
         print ('training resumes from ' + settings.snapshot)
-        net = net.module
+        net = net.module if multigpu.is_multi_gpu(net) else net
         net.load_state_dict(torch.load(os.path.join(settings.ckpt, settings.snapshot + '.pth')))
         optimizer.load_state_dict(torch.load(os.path.join(settings.ckpt, settings.snapshot + '_optim.pth')))
+        optimizer.param_groups[0]['lr'] = 2 * settings.lr
+        optimizer.param_groups[1]['lr'] = settings.lr
+    else:
         optimizer.param_groups[0]['lr'] = 2 * settings.lr
         optimizer.param_groups[1]['lr'] = settings.lr
         
