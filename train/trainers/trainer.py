@@ -75,6 +75,7 @@ class LTRTrainer:
                         end_time = time.time()
                         T = '%d' % (end_time-start_time)
                         print(T)
+                        self.net = self.net.module if torch.cuda.device_count() > 1 else self.net
                         torch.save(self.net.state_dict(), os.path.join(self.settings.ckpt, '%d.pth' % curr_iter))
                         torch.save(self.optimizer.state_dict(),
                            os.path.join(self.settings.ckpt, '%d_optim.pth' % curr_iter))
