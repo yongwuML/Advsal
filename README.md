@@ -2,7 +2,7 @@
 A general python framework for training and testing SODGAN, based on **PyTorch**.
   
 This release also includes many **new features**, including:  
-* Multi GPU training（You need to re-train the model for first training setp）
+* Multi GPU training（You need to re-train the model for first training step）
 * PyTorch v1.3 support  
 
  
