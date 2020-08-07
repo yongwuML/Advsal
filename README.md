@@ -2,7 +2,7 @@
 A general python framework for training and testing SODGAN, based on **PyTorch**.
   
 This release also includes many **new features**, including:  
-* Multi GPU training（You need to re-train the model for first training step）
+* Multi-GPU training（You need to retrain the model for first training step）
 * PyTorch v1.3 support  
 
  
@@ -55,7 +55,7 @@ git clone https://github.com/yongwuSHU/Advsal.git
 #### Install dependencies
 * PyTorch >=0.4.1 (we have tested PyTorch v1.3 with Python 3.7)
 * Python 3
-* ubuntu 16.04 (we don't recommend OS 18.04)
+* Ubuntu 16.04 (we don't recommend OS 18.04)
 * You need install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
 
 ## Let's start !
