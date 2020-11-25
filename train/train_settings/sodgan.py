@@ -45,7 +45,7 @@ def run(settings):
     
     net = Net().cuda().train()
     if settings.multi_gpu:
-        net = MultiGPU(net, dim=1)
+        net = MultiGPU(net, dim=0)
 
     optimizer = optim.SGD([
         {'params': [param for name, param in net.named_parameters() if name[-4:] == 'bias'],'lr': 2 * settings.lr},
