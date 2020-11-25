@@ -56,7 +56,7 @@ git clone https://github.com/yongwuSHU/Advsal.git
 * PyTorch >=0.4.1 (we have tested PyTorch v1.3 with Python 3.7)
 * Python 3
 * Ubuntu 16.04 (we don't recommend OS 18.04)
-* You need install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
+* You need to install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
 
 ## Let's start !
 ### Training
