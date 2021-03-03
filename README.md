@@ -23,11 +23,14 @@ SODGAN is proposed in our paper accepted by JVCIR 2020.
 Detailed explanation of our method can be found in the paper:
 
 ```
-@inproceedings{wuadvsal2020,
-    title = {Saliency detection using adversarial learning networks},
-    author = {Yong Wu, Zhi Liu, Xiaofei Zhou},
-    booktitle = {Journal of Visual Communication and Image Representation},
-    year = {2020}
+@article{wuadvsal2020,
+  author={Yong Wu and Zhi Liu and Xiaofei Zhou}, 
+  title = {Saliency detection using adversarial learning networks},
+  journal = J. Vis. Commun. Image Represent,
+  volume = {67},
+  pages={102761},
+  year = {2020},
+  month={Feb.},
 }
 ```
 The paper can be downloaded [here](https://doi.org/10.1016/j.jvcir.2020.102761).
