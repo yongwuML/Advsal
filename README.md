@@ -60,6 +60,7 @@ git clone https://github.com/yongwuSHU/Advsal.git
 * Python 3
 * Ubuntu 16.04 (we don't recommend OS 18.04)
 * You need to install [pydensecrf](https://github.com/lucasb-eyer/pydensecrf.git)
+* You can download the [resnet101](https://drive.google.com/file/d/15d1e04lCGq6-SeJS8DIai8duqqRUipzU/view?usp=sharing) model
 
 ## Let's start !
 ### Training
